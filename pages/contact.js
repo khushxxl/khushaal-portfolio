@@ -1,15 +1,20 @@
-import { Instagram, LinkedIn, Mail, Twitter } from '@material-ui/icons'
+import { GitHub, Instagram, LinkedIn, Mail, Twitter } from '@material-ui/icons'
 import Header from '../components/Header'
 
 const Contact = () => {
   return (
     <div className="items-center flex flex-col">
       <Header />
-      <div className="flex space-y-10 items-center justify-between flex-col lg:items-start lg:flex-row mt-32 max-w-3xl ml-10 mr-5 ">
+      <div className="flex space-y-10 items-center flex-col justify-between mt-32 max-w-3xl ml-10 mr-5">
         <ContactItem
           IconTitle={Twitter}
           href="https://twitter.com/khushaal_04"
           title="Twitter"
+        />
+        <ContactItem
+          IconTitle={GitHub}
+          href="https://github.com/khushxxl/"
+          title="Github"
         />
         <ContactItem
           IconTitle={LinkedIn}
