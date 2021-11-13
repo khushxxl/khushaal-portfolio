@@ -1,14 +1,14 @@
 /* eslint-disable @next/next/link-passhref */
 /* eslint-disable @next/next/no-img-element */
-import { GitHub, OpenInBrowser, Public } from '@material-ui/icons'
-import { projectData } from '../projectData'
-import Link from 'next/link'
-import Footer from './Footer'
+import { GitHub, OpenInBrowser, Public } from "@material-ui/icons";
+import { projectData } from "../projectData";
+import Link from "next/link";
+import Footer from "./Footer";
 const Projects = () => {
   return (
-    <div className="flex flex-col items-start justify-start max-w-4xl w-[320px] mt-10  sm:w-[500px] md:w-[900px] ">
+    <div className="flex flex-col items-center md:items-start justify-start max-w-4xl w-[320px] mt-20  sm:w-[500px] md:w-[900px] ">
       <div>
-        <h1 className="text-2xl font-bold mb-10">Projects</h1>
+        <h1 className="text-2xl font-bold mb-10">Some Awesome Projects ✨</h1>
       </div>
       <div className="grid">
         {projectData.map((data) => {
@@ -54,12 +54,12 @@ const Projects = () => {
                 </Link>
               </div>
             </div>
-          )
+          );
         })}
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

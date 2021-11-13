@@ -1,11 +1,18 @@
-import { GitHub, Instagram, LinkedIn, Mail, Twitter } from '@material-ui/icons'
-import Header from '../components/Header'
+import { GitHub, Instagram, LinkedIn, Mail, Twitter } from "@material-ui/icons";
+import Header from "../components/Header";
 
 const Contact = () => {
   return (
-    <div className="items-center flex flex-col">
-      <Header />
-      <div className="flex space-y-10 items-center flex-col justify-between mt-32 max-w-3xl ml-10 mr-5">
+    <div id="contact" className="items-center flex flex-col text-center mt-10">
+      {/* <Header /> */}
+      <h1>Get in touch quickly ⚡️</h1>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 items-center  justify-between  max-w-3xl ml-10 mr-5  mt-5 ">
+        <ContactItem
+          IconTitle={Mail}
+          href="mailto:khushaal.choithramani@gmail.com"
+          title="Mail"
+        />
         <ContactItem
           IconTitle={Twitter}
           href="https://twitter.com/khushaal_04"
@@ -21,30 +28,26 @@ const Contact = () => {
           href="https://www.linkedin.com/in/khushaal-choithramani-250285208/"
           title="LinkedIn"
         />
-        <ContactItem
+        {/* <ContactItem
           IconTitle={Instagram}
           href="https://www.instagram.com/khushxxl_04/"
           title="Instagram"
-        />
-        <ContactItem
-          IconTitle={Mail}
-          href="mailto:khushaal.choithramani@gmail.com"
-          title="Mail"
-        />
+        /> */}
       </div>
+      <div className="h-[10vh]"></div>
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
 
 export const ContactItem = ({ href, IconTitle, title }) => {
   return (
-    <a href={href}>
-      <div className="w-52 p-4 hover:bg-black flex justify-evenly border-2 border-yellow-200 rounded-md">
+    <a href={href} className="">
+      <div className="w-52 p-4 hover:bg-black flex justify-evenly  rounded-md">
         <IconTitle />
         <p>{title}</p>
       </div>
     </a>
-  )
-}
+  );
+};

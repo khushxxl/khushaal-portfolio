@@ -1,5 +1,5 @@
-import Header from '../components/Header'
-import Projects from '../components/Projects'
+import Header from "../components/Header";
+import Projects from "../components/Projects";
 
 const Project = () => {
   return (
@@ -7,7 +7,7 @@ const Project = () => {
       <Header />
       <Projects />
     </div>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;

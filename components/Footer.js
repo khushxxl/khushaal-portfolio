@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/link-passhref */
-import Link from 'next/link'
-import { Twitter, Mail, Instagram, LinkedIn, GitHub } from '@material-ui/icons'
+import Link from "next/link";
+import { Twitter, Mail, Instagram, LinkedIn, GitHub } from "@material-ui/icons";
 
 const Footer = () => {
   return (
@@ -35,7 +35,7 @@ const Footer = () => {
         </Link>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

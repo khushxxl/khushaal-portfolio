@@ -1,5 +1,5 @@
-import About from '../components/About'
-import Header from '../components/Header'
+import About from "../components/About";
+import Header from "../components/Header";
 
 const about = () => {
   return (
@@ -9,7 +9,7 @@ const about = () => {
         <About />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default about
+export default about;
