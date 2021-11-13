@@ -2,8 +2,8 @@
 import Link from "next/link";
 const Header = () => {
   return (
-    <div className="border-b border-gray-400 flex justify-between w-full shadow-lg top-0 sticky bg-[#111827]">
-      <div className="m-5 ">
+    <div className=" border-gray-400 flex justify-between w-full shadow-lg top-0 sticky bg-[#111827]">
+      <div className="m-5">
         <a href="#home">
           <h1 className="font-bold cursor-pointer hidden md:inline-grid">
             Khushaal Choithramani

@@ -3,7 +3,10 @@ import Header from "../components/Header";
 
 const Contact = () => {
   return (
-    <div id="contact" className="items-center flex flex-col text-center mt-10">
+    <div
+      id="contact"
+      className="items-center  m-20 flex flex-col text-center mt-10"
+    >
       {/* <Header /> */}
       <h1>Get in touch quickly ⚡️</h1>
 

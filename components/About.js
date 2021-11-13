@@ -4,7 +4,7 @@ import Footer from "./Footer";
 const About = () => {
   return (
     <div id="about">
-      <div className="flex flex-col space-x-10  items-center  md:items-start md:text- md:flex-row justify-between max-w-4xl w-[320px] mt-10  sm:w-[500px] md:w-[900px]">
+      <div className="flex m-10 flex-col space-x-10  items-center  md:items-start md:text- md:flex-row justify-between max-w-4xl w-[320px] mt-10  sm:w-[500px] md:w-[900px]">
         {/* Text Div  */}
         <div className="">
           <div>

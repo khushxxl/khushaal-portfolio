@@ -3,7 +3,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="max-w-xs flex flex-col md:flex-row items-center  justify-evenly  md:max-w-3xl  lg:max-w-4xl xl:max-w-6xl rounded-lg  w-full p-12 min-w-max  mr-10 ml-10 bg-purple-300 bg-opacity-25 m-10"
+      className="max-w-sm flex flex-col md:flex-row items-center  justify-center  md:max-w-3xl  lg:max-w-4xl xl:max-w-6xl rounded-lg  w-full p-12 min-w-max  bg-purple-300 bg-opacity-25 "
     >
       <div>
         <div className="flex flex-col justify-start items-center sm:items-start">

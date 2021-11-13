@@ -7,7 +7,7 @@ const Business = () => {
   return (
     <div
       id="services"
-      className="max-w-sm flex flex-col items-center justify-center   md:max-w-3xl  lg:max-w-4xl xl:max-w-6xl rounded-lg  w-full p-12 min-w-max bg-opacity-25 mt-10"
+      className="max-w-sm flex flex-col items-center justify-center   md:max-w-3xl  lg:max-w-4xl xl:max-w-6xl rounded-lg  w-full  min-w-max bg-opacity-25 ml-5"
     >
       <div>
         <p className="text-center font-bold text-xl md:text-2xl">
