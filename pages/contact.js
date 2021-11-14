@@ -8,9 +8,9 @@ const Contact = () => {
       className="items-center  m-20 flex flex-col text-center mt-10"
     >
       {/* <Header /> */}
-      <h1>Get in touch quickly ⚡️</h1>
+      <h1 className="text-center">Get in touch quickly ⚡️</h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 items-center  justify-between  max-w-3xl ml-10 mr-5  mt-5 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 items-center  justify-center  max-w-3xl ml-10 mr-5  mt-5 ">
         <ContactItem
           IconTitle={Mail}
           href="mailto:khushaal.choithramani@gmail.com"

@@ -6,7 +6,7 @@ import Link from "next/link";
 import Footer from "./Footer";
 const Projects = () => {
   return (
-    <div className="flex m-20 flex-col items-center md:items-start justify-start max-w-4xl w-[320px] mt-20  sm:w-[500px] md:w-[900px] ">
+    <div className="flex m-20 flex-col items-center md:items-start justify-start max-w-4xl w-[320px] mt-5  sm:w-[500px] md:w-[900px] ">
       <div>
         <h1 className="text-2xl font-bold mb-3 ">Some Awesome Projects ✨</h1>
       </div>
@@ -15,7 +15,7 @@ const Projects = () => {
           return (
             <div
               key={data.id}
-              className="grid grid-cols-1 place-content-center space-x-0 md:space-x-40  place-items-center justify-center items-center md:grid-cols-2"
+              className="grid grid-cols-1 text-center place-content-center space-x-0 md:space-x-40  place-items-center justify-center items-center md:text-left   md:grid-cols-2"
             >
               <div className="max-w-lg mb-10">
                 <h1
