@@ -6,7 +6,10 @@ import Link from "next/link";
 import Footer from "./Footer";
 const Projects = () => {
   return (
-    <div className="flex m-20 flex-col items-center md:items-start justify-start max-w-4xl w-[320px] mt-5  sm:w-[500px] md:w-[900px] ">
+    <div
+      id="projects"
+      className="flex m-20 flex-col items-center md:items-start justify-start max-w-4xl w-[320px] mt-5  sm:w-[500px] md:w-[900px] "
+    >
       <div>
         <h1 className="text-2xl font-bold mb-3 ">Some Awesome Projects ✨</h1>
       </div>
