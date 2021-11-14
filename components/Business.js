@@ -7,7 +7,7 @@ const Business = () => {
   return (
     <div
       id="services"
-      className="max-w-sm flex flex-col items-center justify-center   md:max-w-3xl  lg:max-w-4xl xl:max-w-6xl rounded-lg  w-full  min-w-max bg-opacity-25 ml-5"
+      className="max-w-sm flex flex-col items-center justify-center   md:max-w-3xl  lg:max-w-4xl xl:max-w-6xl rounded-lg  w-full  min-w-max bg-opacity-25 ml-5 text-center"
     >
       <div>
         <p className="text-center font-bold text-xl md:text-2xl">
@@ -15,7 +15,7 @@ const Business = () => {
         </p>
       </div>
 
-      <div className="grid mt-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:space-x-4 items-center place-content-center place-items-center space-x-6">
+      <div className="grid mt-10 m-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3  text-center items-center place-content-center place-items-center space- justify-center">
         {businessData.map((data) => {
           return (
             <div key={data.id}>

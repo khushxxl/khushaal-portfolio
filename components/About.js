@@ -1,4 +1,5 @@
 import Footer from "./Footer";
+import Hero from "./Hero";
 
 /* eslint-disable @next/next/no-img-element */
 const About = () => {
@@ -6,6 +7,7 @@ const About = () => {
     <div id="about">
       <div className="flex m-10 flex-col space-x-10  items-center  md:items-start md:text- md:flex-row justify-between max-w-4xl w-[320px] mt-10  sm:w-[500px] md:w-[900px]">
         {/* Text Div  */}
+
         <div className="">
           <div>
             <p className="font-bold text-3xl mb-5">About Me </p>

@@ -66,7 +66,7 @@ export const businessData = [
   {
     id: 4,
     title: "Web Hosting",
-    image: require("./images/web-hosting.png"),
+    image: require("./images/web-host.png"),
   },
   {
     id: 5,

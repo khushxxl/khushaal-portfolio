@@ -16,12 +16,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-
-      <Hero />
-      <About />
-      <Business />
-      <Projects />
-      <Contact />
+      <div className="ml-3 md:ml-0">
+        <Hero />
+        <About />
+        <Business />
+        <Projects />
+        <Contact />
+      </div>
     </div>
   );
 }
