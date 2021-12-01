@@ -1,77 +1,77 @@
 export const projectData = [
   {
     id: 4,
-    name: "Full Stack E-Commerce mobile application ",
+    name: 'Full Stack E-Commerce mobile application ',
     description:
-      "A mobile app which allows users to order stuff online and sellers can view it through an admin panel (iOS & Android) ",
-    tech: "This web app has been built with Next.js and Tailwind CSS",
+      'A mobile app which allows users to order stuff online and sellers can view it through an admin panel (iOS & Android) ',
+    tech: 'This web app has been built with Next.js and Tailwind CSS',
     image:
-      "https://user-images.githubusercontent.com/73185436/141361366-81d53432-ee7c-4b7a-beb8-8de9f7a168fd.jpg",
-    gitRepoLink: "https://github.com/khushxxl/rn-ecom-app",
-    deployedLink: "https://github.com/khushxxl/rn-ecom-app",
-  },
-  {
-    id: 1,
-    name: "Watch Now",
-    description:
-      "A web app which curates trending and movies of different genres in one place",
-    tech: "This web app has been built with Next.js and  React.js calling all the movies using a api request with server side rendering.This website has been beautified with Tailwind CSS and is completely responsive and mobile friendly",
-    image:
-      "https://user-images.githubusercontent.com/73185436/138689242-1270628d-a36f-4afc-aaf9-72ad1532da9b.png",
-    gitRepoLink: "https://github.com/khushxxl",
-    deployedLink:
-      "https://movie-streaming-nextjs-vercel2-5lwtsbqo5-khushxxl.vercel.app",
-  },
-  {
-    id: "3",
-    name: "Quote Up",
-    description:
-      "This mobile application shows beautiful new quotes to influence people in right direction! (iOS & Android)",
-    tech: "This web app has been built with Next.js and React.js using Tailwind CSS and is completely mobile responsive",
-    image:
-      "https://user-images.githubusercontent.com/73185436/141332806-9f77607f-b7fa-4012-a1a9-ca1299f57a19.png",
-    gitRepoLink: "https://github.com/khushxxl/quote-up",
-    deployedLink: "https://github.com/khushxxl/quote-up",
+      'https://user-images.githubusercontent.com/73185436/144180437-3f95d3ab-c9c1-4ee9-a315-7fc2196fd493.png',
+    gitRepoLink: 'https://github.com/khushxxl/rn-ecom-app',
+    deployedLink: 'https://github.com/khushxxl/rn-ecom-app',
   },
   {
     id: 2,
-    name: "Memmories",
+    name: 'Full Stack Instagram Clone',
     description:
-      "A web app which enables user to authenticate themselves , post their memmories and delete it as well! ",
-    tech: "This web app has been built with Next.js and React.js using Firebase as the backend. For State Management ,  Recoil.js is implemented . For Authentication , NextAuth is implemented and has been beautified using Tailwind CSS.",
+      'Full stack instagram clone with features like image uploading and full proof authentication! (Web) ',
+    tech:
+      'Nextjs , Reactjs , Recoiljs , Firebase Auth , Firebase Firestore , Tailwind CSS ',
     image:
-      "https://user-images.githubusercontent.com/73185436/138690291-fef3cfa7-9305-4338-9d0a-7234b5bd576a.png",
-    gitRepoLink: "https://github.com/khushxxl/memmories-project-nextjs",
-    deployedLink:
-      "https://memmories-project-nextjs-c0tbaodmp-khushxxl.vercel.app/#",
+      'https://user-images.githubusercontent.com/73185436/144228318-61767ba7-2cab-4b96-8f22-69efa5344e6d.png',
+    gitRepoLink: 'https://github.com/khushxxl/instagram-nextjs',
+    deployedLink: 'https://instagram-nextjs-khushxxl.vercel.app/',
   },
-];
+  {
+    id: 1,
+    name: 'Watch Now',
+    description:
+      'A web app which curates trending and movies of different genres in one place',
+    tech: 'Nextjs + Reactjs + Tailwind CSS +  API integration ',
+    image:
+      'https://user-images.githubusercontent.com/73185436/144229495-5143e869-6b64-4374-ac21-30e09b1bf645.png',
+    gitRepoLink: 'https://github.com/khushxxl',
+    deployedLink:
+      'https://movie-streaming-nextjs-vercel2-5lwtsbqo5-khushxxl.vercel.app/',
+  },
+  { 
+    id: '3',
+    name: 'Quote Up',
+    description:
+      'This mobile application shows beautiful new quotes to influence and enrich people in right direction! (iOS & Android)',
+    tech: 'React , React Native , API integration , Light & Dark mode support ',
+    image:
+      'https://user-images.githubusercontent.com/73185436/144181436-8b2e44d5-7b34-4419-9561-982260d3d8d4.png',
+    gitRepoLink: 'https://github.com/khushxxl/quote-up',
+    deployedLink: 'https://github.com/khushxxl/quote-up',
+  },
+]
 
 export const businessData = [
   {
     id: 1,
-    title: "Web Development",
-    image: require("./images/computer.png"),
+    title: 'Web Development',
+    image: require('./images/computer.png'),
   },
   {
     id: 2,
-    title: "App Development",
-    image: require("./images/smartphone.png"),
+    title: 'App Development',
+    image: require('./images/smartphone.png'),
   },
   {
     id: 3,
-    title: "Web & App Design",
-    image: require("./images/measuring.png"),
+    title: 'Web & App Design',
+    image: require('./images/measuring.png'),
   },
   {
     id: 4,
-    title: "Web Hosting",
-    image: require("./images/web-host.png"),
+    title: 'Web Hosting',
+    image: require('./images/web-host.png'),
   },
   {
     id: 5,
-    image: require("./images/writing.png"),
-    title: "Content Wrting",
+    image: require('./images/writing.png'),
+    title: 'Content Wrting',
   },
   // {
   //   id: 6,
@@ -86,7 +86,7 @@ export const businessData = [
   // },
   {
     id: 8,
-    title: "Maintenance",
-    image: require("./images/settings-2.png"),
+    title: 'Maintenance',
+    image: require('./images/settings-2.png'),
   },
-];
+]

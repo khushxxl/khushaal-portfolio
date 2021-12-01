@@ -1,5 +1,5 @@
-import { GitHub, Instagram, LinkedIn, Mail, Twitter } from "@material-ui/icons";
-import Header from "../components/Header";
+import { GitHub, Instagram, LinkedIn, Mail, Twitter } from '@material-ui/icons'
+import Header from '../components/Header'
 
 const Contact = () => {
   return (
@@ -39,10 +39,10 @@ const Contact = () => {
       </div>
       <div className="h-[10vh]"></div>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact
 
 export const ContactItem = ({ href, IconTitle, title }) => {
   return (
@@ -52,5 +52,5 @@ export const ContactItem = ({ href, IconTitle, title }) => {
         <p>{title}</p>
       </div>
     </a>
-  );
-};
+  )
+}

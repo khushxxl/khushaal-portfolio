@@ -1,11 +1,11 @@
-import Head from "next/head";
-import Image from "next/image";
-import About from "../components/About";
-import Business from "../components/Business";
-import Header from "../components/Header";
-import Hero from "../components/Hero";
-import Projects from "../components/Projects";
-import Contact from "./contact";
+import Head from 'next/head'
+import Image from 'next/image'
+import About from '../components/About'
+import Business from '../components/Business'
+import Header from '../components/Header'
+import Hero from '../components/Hero'
+import Projects from '../components/Projects'
+import Contact from '../components/Contact'
 
 export default function Home() {
   return (
@@ -24,5 +24,5 @@ export default function Home() {
         <Contact />
       </div>
     </div>
-  );
+  )
 }

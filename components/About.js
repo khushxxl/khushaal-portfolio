@@ -1,11 +1,12 @@
-import Footer from "./Footer";
-import Hero from "./Hero";
+import Footer from './Footer'
+import Hero from './Hero'
+import { motion } from 'framer-motion'
 
 /* eslint-disable @next/next/no-img-element */
 const About = () => {
   return (
     <div id="about">
-      <div className="flex m-10 flex-col space-x-10  items-center  md:items-start md:text- md:flex-row justify-between max-w-4xl w-[320px] mt-10  sm:w-[500px] md:w-[900px]">
+      <div className="flex m-10 flex-col space-x-10  items-center  md:items-start md:text-start md:flex-row justify-between max-w-4xl w-[320px] mt-10  sm:w-[500px] md:w-[900px]">
         {/* Text Div  */}
 
         <div className="">
@@ -29,18 +30,22 @@ const About = () => {
         {/* Text Div  */}
 
         {/* Image Div  */}
-        <div className="mt-20 lg:mt-5 cursor-pointer items-center justify-center">
+        <motion.div
+          className="mt-20 lg:mt-5 cursor-pointer items-center justify-center"
+          initial={{ x: 1000 }}
+          animate={{ x: 0 }}
+        >
           <img
             src="https://pbs.twimg.com/profile_images/1458835398319218703/oX3WAyP-_400x400.jpg"
             alt="some image"
-            className="rounded-full w-40 p-2 border-4 border-yellow-300"
+            className="rounded-full w-40 p-2 border-4 border-yellow-300 ml-20 lg:ml-0 flex items-center justify-center "
           />
-        </div>
+        </motion.div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About
 
 // grid grid-cols-1 place-content-center md:grid-cols-2 mt-20
